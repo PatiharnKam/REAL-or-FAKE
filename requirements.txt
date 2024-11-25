@@ -501,6 +501,7 @@ srsly==2.4.8
 stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
 statsmodels @ file:///C:/b/abs_7bth810rna/croot/statsmodels_1689937298619/work
 streamlit==1.40.0
+streamlit-option-menu
 streamlit-option-menu==0.4.0
 sympy @ file:///C:/b/abs_82njkonm7f/croot/sympy_1701397685028/work
 tables @ file:///C:/b/abs_411740ajo7/croot/pytables_1705614883108/work
