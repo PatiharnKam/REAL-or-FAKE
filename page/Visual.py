@@ -6,8 +6,6 @@ import base64
 import matplotlib.pyplot as plt
 import numpy as np
 from tensorflow.keras.applications.resnet50 import preprocess_input
-# from page.Upload import predict
-# from page.Upload import load_model
 from Upload import predict
 from Upload import load_model
 from PIL import Image
@@ -180,7 +178,6 @@ def visualize_graph():
 
     st.plotly_chart(fig)
 
-    # CNN 
     epoch = [1, 2, 3, 4, 5]
     loss = [0.694229, 0.592310, 0.515308, 0.490537, 0.473285]
     accuracy = [0.552852, 0.703279, 0.776656, 0.794369, 0.802441]
@@ -221,7 +218,6 @@ def visualize_graph():
 
 
 
-    ## Resnet
     epoch = [1, 2, 3, 4, 5]
     loss = [0.3782561421, 0.3311806023, 0.3202846348, 0.3099855781, 0.3165609241]
     accuracy = [0.8469719291, 0.8708825707, 0.8750143647, 0.8810971975, 0.8795669079]
@@ -263,7 +259,6 @@ def visualize_graph():
         st.plotly_chart(loss_fig, use_container_width=True)
 
 
-    # Resnet fine tune
     epoch = [1, 2, 3, 4, 5]
     loss = [0.366931170225143, 0.30858364701271, 0.287208646535873, 0.281542807817459, 0.271793335676193]
     val_loss = [0.321894079446792, 0.274576783180236, 0.274013966321945, 0.229892373085021, 0.246545508503913]

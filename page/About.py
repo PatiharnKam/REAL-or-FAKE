@@ -2,6 +2,7 @@ import streamlit as st
 import base64
 from PIL import Image
 from io import BytesIO
+
 def convert_image(img):
     image = Image.open(img).convert("RGB")
     buffered = BytesIO()

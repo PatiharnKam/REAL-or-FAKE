@@ -4,7 +4,6 @@ def load_css():
     with open('style.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-
 def show_home():
     load_css()
     st.markdown('<h1 class="center-header"> RE-AL or FA-KE </h1>', unsafe_allow_html=True)
