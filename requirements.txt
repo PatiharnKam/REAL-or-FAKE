@@ -2,3 +2,7 @@ streamlit==1.40.0
 streamlit-option-menu
 streamlit-option-menu==0.4.0
 tensorflow
+opencv-python
+plotly
+matplotlib
+numpy
